@@ -4,32 +4,6 @@
 	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
-		{
-			"type": "java",
-			"name": "CodeLens (Launch) - Sample",
-			"request": "launch",
-			"mainClass": "Sample",
-			"projectName": "CTCI_f58f5eab"
-		},
-		{
-			"type": "java",
-			"name": "CodeLens (Launch) - IsUnique",
-			"request": "launch",
-			"mainClass": "IsUnique",
-			"projectName": "CTCI_f58f5eab"
-		},
-		{
-			"type": "java",
-			"name": "CodeLens (Launch) - TripleStep",
-			"request": "launch",
-			"mainClass": "TripleStep",
-			"projectName": "CTCI_f58f5eab"
-		},
-		{
-			"type": "java",
-			"name": "Debug (Launch) - Current File",
-			"request": "launch",
-			"mainClass": "${file}"
-		}
+		
 	]
 }
