@@ -1,0 +1,16 @@
+image: maven:latest
+
+variables:
+  MAVEN_CLI_OPTS: "--batch-mode"
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - echo "cleaning"
+    - mvn clean
+    - echo "testing"
+    - mvn test
