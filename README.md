@@ -3,5 +3,7 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/jskyjohnson/CTCI)
 ![](https://img.shields.io/badge/maven-v3.6.3-informational)
 
+[![GitHub issues](https://img.shields.io/github/issues/jskyjohnson/CTCI)](https://github.com/jskyjohnson/CTCI/issues)
+
 # CTCI
 My "Cracking the Coding Interview" problem solutions.
