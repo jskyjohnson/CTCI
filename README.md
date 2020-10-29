@@ -36,10 +36,11 @@ The general file structure is as follows
     ├── utils                                  #Extra utility files, scripts, autodocs, etc...
     └── ...
 
-## Content
+## Content Chapters
 
 1. Arrays and Strings
     1. [IsUnique](src/main/java/com/jsky/core/ArraysAndStrings/IsUnique.java) 
+        - [Test](src/test/java/com/jsky/core/ArraysAndStrings/IsUniqueTest.java )
 2. Linked Lists
 3. Stacks and Queues
 4. Trees and Graphs
