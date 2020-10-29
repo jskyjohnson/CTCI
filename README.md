@@ -8,12 +8,16 @@
 # Hello!
 Welcome to my java solutions for "Cracking the Coding Interview 6th Edition" by Gayle McDowell. Included is a functioning test suite for JUnit on Maven.
 
-Content
+## Content
 -------
 
 Arrays and Strings
 
-Set up guide
-------------
+## Set up
+------
 
 To run you will need java8 and Maven installed.
+
+I use VS code for my projects.
+
+
