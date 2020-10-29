@@ -38,7 +38,8 @@ The general file structure is as follows
 
 ## Content
 
-Arrays and Strings
+1. Arrays and Strings
+    1. [IsUnique](src/main/java/com/jsky/core/ArraysAndStrings/IsUnique.java) 
 
 ## Set up
 
