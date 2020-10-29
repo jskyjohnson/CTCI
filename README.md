@@ -9,15 +9,28 @@
 Welcome to my java solutions for "Cracking the Coding Interview 6th Edition" by Gayle McDowell. Included is a functioning test suite for JUnit on Maven.
 
 ## Content
--------
 
 Arrays and Strings
 
 ## Set up
-------
 
-To run you will need java8 and Maven installed.
+### Prereqs
 
-I use VS code for my projects.
+- [Java Platform (JDK) 15 (Java SE 15)](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Apache Maven 3.6.3](https://maven.apache.org/download.cgi)
+- [VSCode](https://code.visualstudio.com/)
+- [VSCode Java extensions pack](https://aka.ms/vscode-java-installer-win)
+
+JUnit should be built when you run maven compile or test but incase that doesn't work, or you need to downgrade to junit 4
+- [JUnit](https://github.com/junit-team/junit4/wiki/Download-and-Install)
+
+I use VS code for my projects. To get started with VSCode and java I suggest you look at [visual studio's guide](https://code.visualstudio.com/docs/java/java-tutorial) on it, and again, make sure you have th [coding pack extensions](https://aka.ms/vscode-java-installer-win) for java in VSCode.
+
+Next, make sure your JAVA_HOME system variable is set. 
+```
+JAVA_HOME = C:\Program Files\Java\jdk-15
+```
+
+Then you will need to do the same for MAVEN_HOME and JUNIT_HOME (if using standalone junit jar).
 
 
