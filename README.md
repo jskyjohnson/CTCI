@@ -47,7 +47,7 @@ Navigate to a specific question test file, and you should be able to run that qu
 
 Alternatively, you should also be able to run the entire test suite by clicking on the test side window menu.
 
-![VSCode testing menu example](https://i.imgur.com/hdSQ8Ki.png)
+![VSCode testing menu example](https://i.imgur.com/b885Dzh.png)
 
 And you are always more than welcome to make a new static main method in whatever file you are in to test for specific cases, or add new test cases to that question's test file.
 
