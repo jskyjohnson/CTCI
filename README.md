@@ -6,7 +6,8 @@
 ![](https://img.shields.io/badge/maven-v3.6.3-informational)
 
 # Hello!
-Welcome to my java solutions for "Cracking the Coding Interview 6th Edition" by Gayle McDowell. Included is a functioning test suite for JUnit on Maven. I chose to make this a maven project since I wanted to have automatic code testing using the gitlab's ci pipeline. It added a bit of overhead to get this project working and the folder structures are more complex than needed. 
+
+Welcome to my java solutions for "Cracking the Coding Interview 6th Edition" by Gayle McDowell. Included is a functioning test suite for JUnit on Maven. I chose to make this a maven project since I wanted to have automatic code testing using the gitlab's ci pipeline. It added a bit of overhead to get this project working and the folder structures are more complex than needed.
 
 See the [Content](#content) section for all questions answered so far.
 
@@ -19,18 +20,18 @@ The general file structure is as follows
     |   |   ├── java\com\jsky\core              #Main code file
     |   |   |   ├── ArraysAndStrings            #Chapter file
     |   |   |   |   ├── IsUnique.java           #Question File
-    |   |   |   |   └── ...  
+    |   |   |   |   └── ...
     |   |   |   ├── LinkedLists
-    |   |   |   └── ...  
-    |   |   └── ...  
+    |   |   |   └── ...
+    |   |   └── ...
     |   ├── test
     |   |   ├── java\com\jsky\core             #Test code files
     |   |   |   ├── ArraysAndStrings           #Chapter files
     |   |   |   |   ├── IsUniqueTest.java      #Question Test files
-    |   |   |   |   |   └── ...  
+    |   |   |   |   |   └── ...
     |   |   |   ├── LinkedLists
-    |   |   |   └── ...  
-    |   |   └── ...  
+    |   |   |   └── ...
+    |   |   └── ...
     |   ├── utils                              #Java utils and other custom made data structures...
     │   └── ...
     ├── utils                                  #Extra utility files, scripts, autodocs, etc...
@@ -39,8 +40,10 @@ The general file structure is as follows
 ## Content Chapters
 
 1. Arrays and Strings
-    1. [IsUnique](src/main/java/com/jsky/core/ArraysAndStrings/IsUnique.java) 
-        - [IsUniqueTest](src/test/java/com/jsky/core/ArraysAndStrings/IsUniqueTest.java )
+   1. [IsUnique](src/main/java/com/jsky/core/ArraysAndStrings/IsUnique.java)
+      - [IsUniqueTest](src/test/java/com/jsky/core/ArraysAndStrings/IsUniqueTest.java)
+   1. [CheckPermutation](src/main/java/com/jsky/core/ArraysAndStrings/CheckPermutation.java)
+      - [CheckPermutation](src/test/java/com/jsky/core/ArraysAndStrings/CheckPermutation.java
 2. Linked Lists
 3. Stacks and Queues
 4. Trees and Graphs
@@ -48,9 +51,9 @@ The general file structure is as follows
 6. Math and Logic Puzzles
 7. Object Oriented Design
 8. Recursion and Dynamic Programming
-10. Sorting and Searching
-13. Java
-15. Threads and Locks
+9. Sorting and Searching
+10. Java
+11. Threads and Locks
 
 ## Set up
 
@@ -62,12 +65,13 @@ The general file structure is as follows
 - [VSCode Java extensions pack](https://aka.ms/vscode-java-installer-win)
 
 JUnit should be built when you run maven compile or test but incase that doesn't work, or you need to downgrade to junit 4
+
 - [JUnit](https://github.com/junit-team/junit4/wiki/Download-and-Install)
 
 1. I use VS code for my projects. To get started with VSCode and java I suggest you look at [visual studio's guide](https://code.visualstudio.com/docs/java/java-tutorial) on it, and again, make sure you have th [coding pack extensions](https://aka.ms/vscode-java-installer-win) for java in VSCode.
 
-
 2. Next, make sure your JAVA_HOME system variable is set. If you require addition help updating system variables on windows you might want too look at this [How to set Java Home](https://www.wikihow.com/Set-Java-Home)
+
 ```
 JAVA_HOME = C:\Program Files\Java\jdk-15
 ```
@@ -81,7 +85,7 @@ JUNIT_HOME = C:\Program Files\Java\junit\junit-platform-console-standalone-1.7.0
 
 #### To run
 
-Navigate to a specific question test file, and you should be able to run that question's tests independantly. 
+Navigate to a specific question test file, and you should be able to run that question's tests independantly.
 
 ![In editor test example](https://i.imgur.com/BqLFZ31.png)
 
@@ -92,7 +96,3 @@ Alternatively, you should also be able to run the entire test suite by clicking 
 And you are always more than welcome to make a new static main method in whatever file you are in to test for specific cases, or add new test cases to that question's test file.
 
 # Thank you!
-
-
-
-
