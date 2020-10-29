@@ -42,10 +42,10 @@ JUNIT_HOME = C:\Program Files\Java\junit\junit-platform-console-standalone-1.7.0
 #### To run
 
 Navigate to a specific question test file, and you should be able to run that question's tests independantly. 
-https://i.imgur.com/BqLFZ31.png
+![In editor test example](https://i.imgur.com/BqLFZ31.png)
 
 Alternatively, you should also be able to run the entire test suite by clicking on the test side window menu.
-https://i.imgur.com/hdSQ8Ki.png
+![VSCode testing menu example](https://i.imgur.com/hdSQ8Ki.png)
 
 And you are always more than welcome to make a new static main method in whatever file you are in to test for specific cases, or add new test cases to that question's test file.
 
