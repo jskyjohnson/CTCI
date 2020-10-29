@@ -6,7 +6,25 @@
 ![](https://img.shields.io/badge/maven-v3.6.3-informational)
 
 # Hello!
-Welcome to my java solutions for "Cracking the Coding Interview 6th Edition" by Gayle McDowell. Included is a functioning test suite for JUnit on Maven.
+Welcome to my java solutions for "Cracking the Coding Interview 6th Edition" by Gayle McDowell. Included is a functioning test suite for JUnit on Maven. I chose to make this a maven project since I wanted to have automatic code testing using the gitlab's ci pipeline. It added a bit of overhead to get this project working and the folder structures are more complex than needed. 
+
+See the [Content](#content) section for all questions answered so far.
+
+The general file structure is as follows
+
+    .
+    ├── ...
+    ├── src
+    │   ├── main
+    |   |   ├── java\com\jsky\core             # Frequently asked questions
+
+    ├── docs                    # Documentation files (alternatively `doc`)
+    │   ├── TOC.md              # Table of contents
+    │   ├── faq.md              # Frequently asked questions
+    │   ├── misc.md             # Miscellaneous information
+    │   ├── usage.md            # Getting started guide
+    │   └── ...                 # etc.
+    └── ...
 
 ## Content
 
@@ -24,15 +42,15 @@ Arrays and Strings
 JUnit should be built when you run maven compile or test but incase that doesn't work, or you need to downgrade to junit 4
 - [JUnit](https://github.com/junit-team/junit4/wiki/Download-and-Install)
 
-I use VS code for my projects. To get started with VSCode and java I suggest you look at [visual studio's guide](https://code.visualstudio.com/docs/java/java-tutorial) on it, and again, make sure you have th [coding pack extensions](https://aka.ms/vscode-java-installer-win) for java in VSCode.
+1. I use VS code for my projects. To get started with VSCode and java I suggest you look at [visual studio's guide](https://code.visualstudio.com/docs/java/java-tutorial) on it, and again, make sure you have th [coding pack extensions](https://aka.ms/vscode-java-installer-win) for java in VSCode.
 
 
-Next, make sure your JAVA_HOME system variable is set. If you require addition help updating system variables on windows you might want too look at this [How to set Java Home](https://www.wikihow.com/Set-Java-Home)
+2. Next, make sure your JAVA_HOME system variable is set. If you require addition help updating system variables on windows you might want too look at this [How to set Java Home](https://www.wikihow.com/Set-Java-Home)
 ```
 JAVA_HOME = C:\Program Files\Java\jdk-15
 ```
 
-Then you will need to do the same for MAVEN_HOME and JUNIT_HOME (if using standalone junit jar).
+3. Then you will need to do the same for MAVEN_HOME and JUNIT_HOME (if using standalone junit jar).
 
 ```
 MAVEN_HOME = C:\Program Files\Maven\apache-maven-3.6.3
