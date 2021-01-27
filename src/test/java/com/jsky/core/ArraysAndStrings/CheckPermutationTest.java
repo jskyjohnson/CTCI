@@ -16,5 +16,6 @@ public class CheckPermutationTest {
   public void checkPermutationTest() {
     assertEquals(false, CheckPermutation.checkPermutation("hello", "hillo"));
     assertEquals(true, CheckPermutation.checkPermutation("hello", "olleh"));
+    assertEquals(false, CheckPermutation.checkPermutation("thisisfalse","asitshouldbe"));
   }
 }

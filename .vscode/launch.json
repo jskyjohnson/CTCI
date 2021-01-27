@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch URLify",
+			"request": "launch",
+			"mainClass": "com.jsky.core.ArraysAndStrings.URLify",
+			"projectName": "CTCI"
+		},
+		{
+			"type": "java",
 			"name": "CodeLens (Launch) - CheckPermutation",
 			"request": "launch",
 			"mainClass": "com.jsky.core.ArraysAndStrings.CheckPermutation",
