@@ -48,7 +48,7 @@ The general file structure is as follows
          - [URLifyTest](src/test/java/com/jsky/core/ArraysAndStrings/URLifyTest.java)
 2. Linked Lists
    1. [RemoveDups](src/main/java/com/jsky/core/LinkedLists/RemoveDups.java)
-            - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
+         - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
 3. Stacks and Queues
 4. Trees and Graphs
 5. Bit Manipulation
