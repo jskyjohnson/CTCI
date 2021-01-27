@@ -30,18 +30,18 @@ public class RemoveDups {
 		return list;
   }
 
-  public static void main(String[] args) {
-    LinkedList<String> sample = new LinkedList<String>();
-    sample.add("s");
-    sample.add("s");
-    sample.add("a");
-    sample.add("m");
-    sample.add("p");
-    sample.add("l");
-		sample.add("e");
-		sample.add("s");
+  // public static void main(String[] args) {
+  //   LinkedList<String> sample = new LinkedList<String>();
+  //   sample.add("s");
+  //   sample.add("s");
+  //   sample.add("a");
+  //   sample.add("m");
+  //   sample.add("p");
+  //   sample.add("l");
+	// 	sample.add("e");
+	// 	sample.add("s");
 
-    LinkedList<String> s = removeDups(sample);
-    System.out.println(s);
-  }
+  //   LinkedList<String> s = removeDups(sample);
+  //   System.out.println(s);
+  // }
 }

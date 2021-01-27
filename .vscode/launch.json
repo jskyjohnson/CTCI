@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch ReturnKthToLast",
+			"request": "launch",
+			"mainClass": "com.jsky.core.LinkedLists.ReturnKthToLast",
+			"projectName": "CTCI"
+		},
+		{
+			"type": "java",
 			"name": "Launch RemoveDups",
 			"request": "launch",
 			"mainClass": "com.jsky.core.LinkedLists.RemoveDups",
