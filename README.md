@@ -43,9 +43,9 @@ The general file structure is as follows
    1. [IsUnique](src/main/java/com/jsky/core/ArraysAndStrings/IsUnique.java)
       - [IsUniqueTest](src/test/java/com/jsky/core/ArraysAndStrings/IsUniqueTest.java)
    1. [CheckPermutation](src/main/java/com/jsky/core/ArraysAndStrings/CheckPermutation.java)
-      - [CheckPermutationTest](src/test/java/com/jsky/core/ArraysAndStrings/CheckPermutationTest.java
+      - [CheckPermutationTest](src/test/java/com/jsky/core/ArraysAndStrings/CheckPermutationTest.java)
    1. [URLify](src/main/java/com/jsky/core/ArraysAndStrings/URLify.java)
-         - [URLifyTest](src/test/java/com/jsky/core/ArraysAndStrings/URLifyTest.java
+         - [URLifyTest](src/test/java/com/jsky/core/ArraysAndStrings/URLifyTest.java)
 2. Linked Lists
 3. Stacks and Queues
 4. Trees and Graphs
