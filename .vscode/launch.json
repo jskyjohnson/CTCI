@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch RemoveDups",
+			"request": "launch",
+			"mainClass": "com.jsky.core.LinkedLists.RemoveDups",
+			"projectName": "CTCI"
+		},
+		{
+			"type": "java",
 			"name": "Launch URLify",
 			"request": "launch",
 			"mainClass": "com.jsky.core.ArraysAndStrings.URLify",
