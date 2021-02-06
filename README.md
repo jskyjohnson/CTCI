@@ -45,14 +45,16 @@ The general file structure is as follows
    1. [CheckPermutation](src/main/java/com/jsky/core/ArraysAndStrings/CheckPermutation.java)
       - [CheckPermutationTest](src/test/java/com/jsky/core/ArraysAndStrings/CheckPermutationTest.java)
    1. [URLify](src/main/java/com/jsky/core/ArraysAndStrings/URLify.java)
-         - [URLifyTest](src/test/java/com/jsky/core/ArraysAndStrings/URLifyTest.java)
+      - [URLifyTest](src/test/java/com/jsky/core/ArraysAndStrings/URLifyTest.java)
    1. [PalindromePermutation](src/main/java/com/jsky/core/ArraysAndStrings/PalindromePermutation.java)
-         - [PalindromePermutationTest](src/test/java/com/jsky/core/ArraysAndStrings/PalindromePermutationTest.java)
+      - [PalindromePermutationTest](src/test/java/com/jsky/core/ArraysAndStrings/PalindromePermutationTest.java)
+   1. [OneAway](src/main/java/com/jsky/core/ArraysAndStrings/OneAway.java)
+      - [OneAwayTest](src/test/java/com/jsky/core/ArraysAndStrings/OneAwayTest.java)
 2. Linked Lists
    1. [RemoveDups](src/main/java/com/jsky/core/LinkedLists/RemoveDups.java)
-         - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
+      - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
    1. [ReturnKthToLast](src/main/java/com/jsky/core/LinkedLists/ReturnKthToLast.java)
-         - [ReturnKthToLastTests](src/test/java/com/jsky/core/LinkedLists/ReturnKthToLastTest.java)
+      - [ReturnKthToLastTests](src/test/java/com/jsky/core/LinkedLists/ReturnKthToLastTest.java)
 3. Stacks and Queues
 4. Trees and Graphs
 5. Bit Manipulation

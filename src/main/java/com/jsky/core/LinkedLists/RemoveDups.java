@@ -14,7 +14,7 @@ public class RemoveDups {
 		ListIterator<Object> listIterator = list.listIterator();
 		while(listIterator.hasNext()){
 			Object t = listIterator.next();
-			//Checks if it's the only occurance of that value
+			//Checks if it's the only occurrence of that value
 			if( index != list.lastIndexOf(t) ) {
 				//Create a new list iterator to avoid concurrent modification errors
 				ListIterator<Object> remover = listIterator;
