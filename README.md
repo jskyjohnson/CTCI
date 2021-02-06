@@ -52,6 +52,8 @@ The general file structure is as follows
       - [OneAwayTest](src/test/java/com/jsky/core/ArraysAndStrings/OneAwayTest.java)
    1. [StringCompression](src/main/java/com/jsky/core/ArraysAndStrings/StringCompression.java)
       - [StringCompressionTest](src/test/java/com/jsky/core/ArraysAndStrings/StringCompressionTest.java)
+   1. [RotateMatrix](src/main/java/com/jsky/core/ArraysAndStrings/RotateMatrix.java)
+      - [RotateMatrixTest](src/test/java/com/jsky/core/ArraysAndStrings/RotateMatrixTest.java)
 2. Linked Lists
    1. [RemoveDups](src/main/java/com/jsky/core/LinkedLists/RemoveDups.java)
       - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
