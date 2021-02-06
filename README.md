@@ -56,7 +56,7 @@ The general file structure is as follows
       - [RotateMatrixTest](src/test/java/com/jsky/core/ArraysAndStrings/RotateMatrixTest.java)
    1. [ZeroMatrix](src/main/java/com/jsky/core/ArraysAndStrings/ZeroMatrix.java)
       - [ZeroMatrixTest](src/test/java/com/jsky/core/ArraysAndStrings/ZeroMatrixTest.java)
-   [StringRotation](src/main/java/com/jsky/core/ArraysAndStrings/StringRotation.java)
+   1. [StringRotation](src/main/java/com/jsky/core/ArraysAndStrings/StringRotation.java)
       - [StringRotationTest](src/test/java/com/jsky/core/ArraysAndStrings/StringRotationTest.java)
 2. Linked Lists
    1. [RemoveDups](src/main/java/com/jsky/core/LinkedLists/RemoveDups.java)
