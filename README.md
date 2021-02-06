@@ -50,6 +50,8 @@ The general file structure is as follows
       - [PalindromePermutationTest](src/test/java/com/jsky/core/ArraysAndStrings/PalindromePermutationTest.java)
    1. [OneAway](src/main/java/com/jsky/core/ArraysAndStrings/OneAway.java)
       - [OneAwayTest](src/test/java/com/jsky/core/ArraysAndStrings/OneAwayTest.java)
+   1. [StringCompression](src/main/java/com/jsky/core/ArraysAndStrings/StringCompression.java)
+      - [StringCompressionTest](src/test/java/com/jsky/core/ArraysAndStrings/StringCompressionTest.java)
 2. Linked Lists
    1. [RemoveDups](src/main/java/com/jsky/core/LinkedLists/RemoveDups.java)
       - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
