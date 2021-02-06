@@ -19,8 +19,6 @@ public class ZeroMatrix {
         }
       }
     }
-    System.out.println(zeros);
-    printMatrix(matrix);
     //apply edits to the matrix functions.
     Iterator<Tuple<Integer, Integer>> iter = zeros.iterator();
     while (iter.hasNext()) {
@@ -32,8 +30,6 @@ public class ZeroMatrix {
         matrix[k.x][j] = 0;
       }
     }
-
-    printMatrix(matrix);
   }
 
   /**
