@@ -3,5 +3,6 @@
 	"cSpell.ignoreWords": [
 		"lify",
 		"ur"
-	]
+	],
+	"debug.console.collapseIdenticalLines": true
 }
