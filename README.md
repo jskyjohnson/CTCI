@@ -63,6 +63,8 @@ The general file structure is as follows
       - [RemoveDupsTest](src/test/java/com/jsky/core/LinkedLists/RemoveDups.java)
    1. [ReturnKthToLast](src/main/java/com/jsky/core/LinkedLists/ReturnKthToLast.java)
       - [ReturnKthToLastTests](src/test/java/com/jsky/core/LinkedLists/ReturnKthToLastTest.java)
+   1. [DeleteMiddleNode](src/main/java/com/jsky/core/LinkedLists/DeleteMiddleNode.java)
+      - [DeleteMiddleNodeTest](src/test/java/com/jsky/core/LinkedLists/DeleteMiddleNodeTest.java)
 3. Stacks and Queues
 4. Trees and Graphs
 5. Bit Manipulation
