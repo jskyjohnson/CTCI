@@ -3,7 +3,6 @@ package com.jsky.core.LinkedLists;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.jsky.core.Utils.ListNode;
-import java.util.LinkedList;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -15,9 +14,9 @@ import org.junit.jupiter.api.Test;
 
 public class DeleteMiddleNodeTest {
 
-  @DisplayName("Remove Duplicates Test")
+  @DisplayName("Delete Middle Node Test")
   @Test
-  public void testRemoveDups() {
+  public void TestPartition() {
     ListNode<String> original = new ListNode<String>("a");
     original.next = new ListNode<String>("b");
     original.next.next = new ListNode<String>("c");
