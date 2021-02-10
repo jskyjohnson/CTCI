@@ -29,10 +29,8 @@ public class DeleteMiddleNodeTest {
     answer.next.next = new ListNode<String>("d");
     answer.next.next.next = new ListNode<String>("e");
 
-    DeleteMiddleNode.DeleteMiddleNode(original.next.next); //C node...
-		//assertEquals(true, ret.equals( answer ));
-		System.out.println(original);
-		System.out.println(answer);
+		DeleteMiddleNode.DeleteMiddleNode(original.next.next); //C node...
+		
     ListNode<String> curOrg = original;
     ListNode<String> curAns = answer;
     boolean equal = true;
