@@ -16,11 +16,14 @@ public class SumLists {
     ListNode<Integer> l1cur = l1;
     ListNode<Integer> l2cur = l2;
     ListNode<Integer> ret_head = new ListNode<Integer>();
-		ListNode<Integer> ret_cur = ret_head;
-		
+    ListNode<Integer> ret_cur = ret_head;
+
     boolean carry = false;
-    while (l1cur != null && l2cur != null) {
-      int nextval = l1cur.val + l2cur.val + (carry ? 1 : 0);
+    while (l1cur != null || l2cur != null) {
+      int nextval =
+        (l1cur != null ? l1cur.val : 0) +
+        (l2cur != null ? l2cur.val : 0) +
+        (carry ? 1 : 0);
       carry = false;
       if (nextval >= 10) {
         nextval %= 10;
@@ -28,12 +31,15 @@ public class SumLists {
       }
       ListNode<Integer> next = new ListNode<Integer>(nextval);
       ret_cur.next = next;
+      if (l1cur != null) l1cur = l1cur.next;
+      if (l2cur != null) l2cur = l2cur.next;
 
-      l1cur = l1cur.next;
-      l2cur = l2cur.next;
       ret_cur = ret_cur.next;
-		}
-		
+    }
+    if (carry) {
+      ret_cur.next = new ListNode<Integer>(1);
+    }
+
     return ret_head.next;
   }
 
@@ -47,27 +53,12 @@ public class SumLists {
     ListNode<Integer> l1,
     ListNode<Integer> l2
   ) {
-		ListNode<Integer> l1cur = l1;
-    ListNode<Integer> l2cur = l2;
-    ListNode<Integer> ret_head = new ListNode<Integer>();
-		ListNode<Integer> ret_cur = ret_head;
-		ListNode<Integer> ret_prev = ret_head;
+		ListNode<Integer> l1cur = ListNode.reverse(l1);
+		ListNode<Integer> l2cur = ListNode.reverse(l2);
 
+		
+		ListNode<Integer> answer = sumListsReverse(l1cur, l2cur);
 
-    // while (l1cur != null && l2cur != null) {
-    //   int nextval = l1cur.val + l2cur.val;
-    //   if (nextval >= 10) {
-		// 		nextval %= 10;
-		// 		//Increase previous...
-    //   }
-    //   ListNode<Integer> next = new ListNode<Integer>(nextval);
-    //   ret_cur.next = next;
-
-    //   l1cur = l1cur.next;
-    //   l2cur = l2cur.next;
-    //   ret_cur = ret_cur.next;
-		// }
-
-    return null;
+    return ListNode.reverse(answer);
   }
 }

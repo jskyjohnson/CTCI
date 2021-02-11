@@ -28,4 +28,33 @@ public class SumListsTest {
     System.out.println(answer);
     assertEquals(true, processed.equals(answer));
   }
+
+  @DisplayName("Sum List Tests Reverse Order Uneven numbers")
+  @Test
+  public void TestReverseOrderUneven() {
+    ListNode<Integer> l1 = ListNode.listFromIntArray(new int[] { 9, 9, 9, 9, 9, 9, 9 });
+
+    ListNode<Integer> l2 = ListNode.listFromIntArray(new int[] { 9, 9, 9, 9 });
+
+    ListNode<Integer> answer = ListNode.listFromIntArray(new int[] { 8, 9, 9, 9, 0, 0, 0, 1 });
+    
+    ListNode<Integer> processed = SumLists.sumListsReverse(l1, l2);
+    System.out.println(processed);
+    System.out.println(answer);
+    assertEquals(true, processed.equals(answer));
+  }
+
+  @DisplayName("Sum List Tests In Forward Order")
+  @Test
+  public void TestForwardOrder() {
+    ListNode<Integer> l1 = ListNode.listFromIntArray(new int[] { 6, 1, 7 });
+
+    ListNode<Integer> l2 = ListNode.listFromIntArray(new int[] { 2, 9, 5 });
+
+    ListNode<Integer> answer = ListNode.listFromIntArray(new int[] { 9, 1, 2 });
+    
+    ListNode<Integer> processed = SumLists.sumListsForward(l1, l2);
+
+    assertEquals(true, processed.equals(answer));
+  }
 }

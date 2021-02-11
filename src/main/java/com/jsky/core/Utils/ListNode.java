@@ -59,4 +59,18 @@ public class ListNode<T> {
 
     return equal;
   }
+
+  public static ListNode<Integer> reverse(ListNode<Integer> list) {
+    ListNode<Integer> prev = null;
+    ListNode<Integer> cur = list;
+
+    while (cur != null) {
+      ListNode<Integer> nextTemp = cur.next;
+      cur.next = prev;
+      prev = cur;
+      cur = nextTemp;
+    }
+
+    return prev;
+  }
 }
