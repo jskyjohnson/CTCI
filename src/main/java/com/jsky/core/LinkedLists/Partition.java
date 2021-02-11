@@ -5,7 +5,9 @@ import com.jsky.core.Utils.ListNode;
 public class Partition {
 
   /**
-   * @param node,
+   * @param list, a list to be partitioned around the next param
+	 * @param partition, an interger to partition the list around
+	 * @return returns a list where all values below @param partition are before any values above it
    */
   public static ListNode<Integer> partitionList(ListNode<Integer> list, int partition) {
     //Create two lists basically...

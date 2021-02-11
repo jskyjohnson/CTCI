@@ -38,4 +38,25 @@ public class ListNode<T> {
     head = head.next;
     return head;
   }
+
+  /**
+   * Tests this ListNode to see if it is equal to another ListNode
+   * @param o other ListNode
+   * @return if they are equal
+   */
+  public boolean equals(ListNode<T> o) {
+    ListNode<T> curOrg = this;
+    ListNode<T> curAns = o;
+    boolean equal = true;
+
+    while (curAns != null && curOrg != null) {
+      if (!curOrg.val.equals(curAns.val)) equal = false;
+      curAns = curAns.next;
+      curOrg = curOrg.next;
+    }
+    if (curOrg != null && curAns == null) return false;
+    if (curAns != null && curOrg == null) return false;
+
+    return equal;
+  }
 }
