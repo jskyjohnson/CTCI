@@ -16,6 +16,19 @@ public class ListNode<T> {
     this.next = next;
   }
 
+  public ListNode<T> copy() {
+    ListNode<T> cpyHead = new ListNode<T>();
+    ListNode<T> cpycur = cpyHead;
+    ListNode<T> cur = this;
+    while (cur != null) {
+      cpycur.next = new ListNode<>(cur.val);
+      cpycur = cpycur.next;
+      cur = cur.next;
+    }
+
+    return cpyHead.next;
+  }
+
   @Override
   public String toString() {
     if (this.next != null) return val + " -> " + next.toString(); else return (
@@ -37,6 +50,21 @@ public class ListNode<T> {
     }
     head = head.next;
     return head;
+  }
+
+  /**
+   * @param arr, integer array to be turned into a list
+   * @return returns the head of a new list
+   */
+  public static ListNode<String> listFromStringArray(String[] arr) {
+    ListNode<String> head = new ListNode<String>();
+    ListNode<String> prev = head;
+    for (String i : arr) {
+      ListNode<String> cur = new ListNode<String>(i);
+      prev.next = cur;
+      prev = cur;
+    }
+    return head.next;
   }
 
   /**
@@ -63,14 +91,24 @@ public class ListNode<T> {
   public static ListNode<Integer> reverse(ListNode<Integer> list) {
     ListNode<Integer> prev = null;
     ListNode<Integer> cur = list;
-
     while (cur != null) {
       ListNode<Integer> nextTemp = cur.next;
       cur.next = prev;
       prev = cur;
       cur = nextTemp;
     }
+    return prev;
+  }
 
+  public static ListNode<String> reverseStr(ListNode<String> list) {
+    ListNode<String> prev = null;
+    ListNode<String> cur = list;
+    while (cur != null) {
+      ListNode<String> nextTemp = cur.next;
+      cur.next = prev;
+      prev = cur;
+      cur = nextTemp;
+    }
     return prev;
   }
 }

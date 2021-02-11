@@ -69,6 +69,8 @@ The general file structure is as follows
       - [PartitionTest](src/test/java/com/jsky/core/LinkedLists/PartitionTest.java)
    1. [SumLists](src/main/java/com/jsky/core/LinkedLists/SumLists.java)
       - [SumListsTest](src/test/java/com/jsky/core/LinkedLists/SumListsTest.java)
+   1. [Palindrome](src/main/java/com/jsky/core/LinkedLists/Palindrome.java)
+      - [PalindromeTest](src/test/java/com/jsky/core/LinkedLists/PalindromeTest.java)
 3. Stacks and Queues
 4. Trees and Graphs
 5. Bit Manipulation
