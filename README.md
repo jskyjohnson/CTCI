@@ -67,6 +67,8 @@ The general file structure is as follows
       - [DeleteMiddleNodeTest](src/test/java/com/jsky/core/LinkedLists/DeleteMiddleNodeTest.java)
    1. [Partition](src/main/java/com/jsky/core/LinkedLists/Partition.java)
       - [PartitionTest](src/test/java/com/jsky/core/LinkedLists/PartitionTest.java)
+   1. [SumLists](src/main/java/com/jsky/core/LinkedLists/SumLists.java)
+      - [SumListsTest](src/test/java/com/jsky/core/LinkedLists/SumListsTest.java)
 3. Stacks and Queues
 4. Trees and Graphs
 5. Bit Manipulation
